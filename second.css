@@ -6,7 +6,7 @@
 }
 
 .container{
-	max-width: 1220px;
+	max-inline-size: 1220px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
@@ -52,49 +52,11 @@ header a{
 }
 
 .more-info img{
-	width: 300px;
+	inline-size: 300px;
 	margin: 30px 0;
 }
 
-h2 {
-    padding: 60px;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    font-size: 28px;
-    padding: 28px;
-}
-
-.container_footer {
-    max-width: 1220px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
-.container_footer a {
-    width: 40px;
-    margin: 30px 0;
-}
-
-.container_footer img {
-    width: 40px;
-    margin: 30px 0;
-}
-
-.footer-social-media {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.telegarm-info {
-    padding: 90px 0;
-    font-size: 48px;
-    text-align: center;
-}
-
-button {
-    margin: 60px 90px;
+.bid_img{
+background: url("./img/minecraft.png") 0 0/cover no-repeat;
+block-size: calc(100vh - 88px);
 }
