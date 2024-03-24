@@ -6,7 +6,7 @@
 }
 
 .container{
-	max-width: 1220px;
+	max-inline-size: 1220px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
@@ -52,11 +52,11 @@ header a{
 }
 
 .more-info img{
-	width: 300px;
+	inline-size: 300px;
 	margin: 30px 0;
 }
 
 .bid_img{
 background: url("./img/minecraft.png") 0 0/cover no-repeat;
-height: calc(100vh - 88px);
+block-size: calc(100vh - 88px);
 }
