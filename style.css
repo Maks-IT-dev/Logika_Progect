@@ -101,3 +101,50 @@ button {
 	color: azure;
 	width: 340px;
 }
+
+.track__item{
+	height: calc(100dvh - 88px);
+	width: 100vw;
+	flex-shrink: 0;
+}
+
+.slider{
+	overflow: hidden;
+	position: relative;
+}
+
+.track{
+	position: relative;
+	transition: all 1.1s;
+	left: 0;
+}
+
+.slider__dots{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	gap: 20px;
+	left: 0;
+	bottom: 20px;
+}
+
+.slider__dots li{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: white;
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+.slider__dots li.active{
+	opacity: 1;
+}
+
+.track__item img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
