@@ -56,7 +56,8 @@ header a{
 	margin: 30px 0;
 }
 
-.bid_img{
+.big_img{
 background: url("./img/minecraft.png") 0 0/cover no-repeat;
 block-size: calc(100vh - 88px);
+height: 600px;
 }

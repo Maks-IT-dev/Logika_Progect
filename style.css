@@ -97,4 +97,7 @@ footer {
 
 button {
     margin: 60px 90px;
+	background-color: black;
+	color: azure;
+	width: 340px;
 }
