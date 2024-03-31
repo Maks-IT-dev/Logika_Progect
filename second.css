@@ -59,5 +59,25 @@ header a{
 .big_img{
 background: url("./img/minecraft.png") 0 0/cover no-repeat;
 block-size: calc(100vh - 88px);
-height: 600px;
+
+}
+
+.minecraft_info{
+	padding: 90px 0;
+}
+
+.minecraft_info h1{
+	margin-bottom: 60px;
+	font-size: 48px;
+
+}
+
+.minecraft_info p{
+	margin-bottom: 60px;
+	font-size: 20px;
+}
+
+.minecraft_info .row{
+gap:40px;
+
 }
