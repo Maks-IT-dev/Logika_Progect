@@ -174,3 +174,37 @@ button {
 	height: 100%;
 	object-fit: cover;
 }
+
+.top-game-info {
+	padding: 90px 0;
+
+}
+
+h1 {
+	text-align: center;
+	width: 1200px;
+	height: 58px;
+	margin-bottom: 60px;
+	font-size: 48px;
+}
+
+.top-game-img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	margin-top: -380px;
+	text-align: end;
+}
+
+.top-game-navigation {
+	font-size: 25px;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
