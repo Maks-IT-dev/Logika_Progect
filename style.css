@@ -23,9 +23,18 @@ header a{
 	text-decoration: none;
 }
 
+header p {
+	padding-right: 600px;
+}
+
 .row{
 	display: flex;
 	justify-content: space-between;
+}
+
+.row img {
+	width: 50px;
+	margin-top: -10px;
 }
 
 .header__navigation{
@@ -196,15 +205,39 @@ h1 {
 	text-align: end;
 }
 
-.top-game-navigation {
+.top-game-items {
 	font-size: 25px;
 	color: gray;
 }
 
-a {
-	text-decoration: none;
-}
-
 ul {
 	list-style: none;
+}
+
+.top-game-minecraft:hover {
+	color: black;
+}
+
+.top-game-rdr:hover {
+	color: black;
+}
+
+.top-game-nfs:hover {
+	color: black;
+}
+
+.top-game-rust:hover {
+	color: black;
+}
+
+.top-game-forest:hover {
+	color: black;
+}
+
+.top-game-pubg:hover {
+	color: black;
+}
+
+.top-game-stray:hover {
+	color: black;
 }
