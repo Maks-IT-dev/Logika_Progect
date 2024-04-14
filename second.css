@@ -23,9 +23,18 @@ header a{
 	text-decoration: none;
 }
 
+header p {
+	padding-right: 600px;
+}
+
 .row{
 	display: flex;
 	justify-content: space-between;
+}
+
+.row img {
+	width: 50px;
+	margin-top: -10px;
 }
 
 .header__navigation{
